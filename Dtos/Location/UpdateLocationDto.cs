@@ -2,7 +2,7 @@
 {
     public class UpdateLocationDto
     {
-        public int UserId { get; set; }
+        public int? UserId { get; set; }
 
         public string LocationStreet { get; set; } = null!;
 
@@ -12,8 +12,8 @@
 
         public string LocationCountry { get; set; } = null!;
 
-        public DateTime CreatedDateTime { get; set; }
+        public DateTime? CreatedDateTime { get; set; }
 
-        public DateTime ModifiedDateTime { get; set; }
+        public DateTime? ModifiedDateTime { get; set; }
     }
 }

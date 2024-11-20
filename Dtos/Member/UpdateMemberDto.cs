@@ -3,12 +3,12 @@
     public class UpdateMemberDto
     {
 
-        public int UserId { get; set; }
+        public int? UserId { get; set; }
 
-        public string MemberPassword { get; set; } = null!;
+        public string? MemberPassword { get; set; } = null!;
 
-        public DateTime CreatedDateTime { get; set; }
+        public DateTime? CreatedDateTime { get; set; }
 
-        public DateTime ModifiedDateTime { get; set; }
+        public DateTime? ModifiedDateTime { get; set; }
     }
 }

@@ -2,9 +2,9 @@
 {
     public class UpdateOrderDto
     {
-        public int UserId { get; set; }
+        public int? UserId { get; set; }
 
-        public decimal OrderTotal { get; set; }
+        public decimal? OrderTotal { get; set; }
 
         public DateTime CreatedDateTime { get; set; }
 

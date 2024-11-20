@@ -6,8 +6,8 @@
 
         public string CategoryName { get; set; } = null!;
 
-        public DateTime CreatedDateTime { get; set; }
+        public DateTime? CreatedDateTime { get; set; }
 
-        public DateTime ModifiedDateTime { get; set; }
+        public DateTime? ModifiedDateTime { get; set; }
     }
 }
